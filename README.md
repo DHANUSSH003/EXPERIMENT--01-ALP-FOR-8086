@@ -1,4 +1,4 @@
-# EXPERIMENT--01-ALP-FOR-8086
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f5cf655a-3cfd-4b70-a3e7-f018981e2cc1" /># EXPERIMENT--01-ALP-FOR-8086
 Name :Dhanussh Elango
 
 Roll no: 212224040069
@@ -145,6 +145,90 @@ HLT
 ## Output  
 
 <img width="1920" height="1200" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/63204ad4-13b1-4028-9e71-3ff58e958502" />
+
+##Logical Operation:
+##And:
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+AND AX,BX
+MOV [3005H],AX
+HLT
+```
+##OUTPUT:
+
+<img width="1920" height="1200" alt="Screenshot (102)" src="https://github.com/user-attachments/assets/c382f452-64b6-4e70-9686-c1fb478ce9ca" />
+
+##OR:
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+OR AX,BX
+MOV [3005H],AX
+HLT
+```
+##OUTPUT:
+<img width="1920" height="1200" alt="Screenshot (103)" src="https://github.com/user-attachments/assets/b098a6cf-dc4b-480e-b934-f3a3d110a470" />
+
+##NOR:
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+OR AX,BX
+NOT AX
+MOV [3005H],AX
+HLT
+```
+##OUTPUT:
+<img width="1920" height="1200" alt="Screenshot (104)" src="https://github.com/user-attachments/assets/e4cf0989-2619-477c-bddb-7817b93f1369" />
+
+##NAND:
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+AND AX,BX
+NOT AX
+MOV [3005H],AX
+HLT
+```
+
+##OUTPUT:
+<img width="1920" height="1200" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/3bcda287-8e53-40f3-b783-3fa5d74c0076" />
+
+##NOT:
+```
+MOV AX,[3001H]
+NOT AX
+MOV [3003H],AX
+HLT
+```
+
+##OUTPUT:
+<img width="1920" height="1200" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/9529229e-9aa7-4735-9d8c-f3d46685f1b3" />
+
+##XOR:
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+XOR AX,BX
+MOV [3005H],AX
+HLT
+```
+##OUTPUT:
+<img width="1920" height="1200" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/cc1b69ad-d937-48f5-b6b0-1d75b21bd5e3" />
+
+#XNOR:
+```
+MOV AX,[3001H]
+MOV BX,[3003H]
+XOR AX,BX
+NOT AX
+MOV [3005H],AX
+HLT
+```
+##OUTPUT:
+<img width="1920" height="1200" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/cd79a484-5475-4978-94dc-5865e8a8384e" />
+
 
 ## Result :
 Thus the program is verified and the desiered output is got
