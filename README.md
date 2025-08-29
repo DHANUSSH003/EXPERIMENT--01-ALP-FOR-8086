@@ -229,6 +229,7 @@ HLT
 <img width="1920" height="1200" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/cd79a484-5475-4978-94dc-5865e8a8384e" />
 
 ##TRUTH TABLE:
+
 ![WhatsApp Image 2025-08-29 at 10 48 39_d086650a](https://github.com/user-attachments/assets/a17d4dc7-329f-4f74-bd04-c755b1e00e59)
 
 
