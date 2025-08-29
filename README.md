@@ -1,4 +1,3 @@
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f5cf655a-3cfd-4b70-a3e7-f018981e2cc1" /># EXPERIMENT--01-ALP-FOR-8086
 Name :Dhanussh Elango
 
 Roll no: 212224040069
